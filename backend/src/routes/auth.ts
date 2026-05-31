@@ -6,9 +6,13 @@ import { authenticate, AuthRequest } from '../middleware/auth';
 const router = Router();
 
 function signToken(payload: { id: string; role: string; name: string; email: string }) {
-  return jwt.sign(payload, process.env.JWT_SECRET || 'fallback_secret', {
-    expiresIn: (process.env.JWT_EXPIRES_IN || '7d') as string,
-  });
+  return jwt.sign(
+    payload,
+    process.env.JWT_SECRET || 'fallback_secret',
+    {
+      expiresIn: '7d',
+    }
+  );
 }
 
 // POST /api/auth/register
