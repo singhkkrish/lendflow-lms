@@ -142,6 +142,17 @@ export interface BREError {
   field: string;
   message: string;
 }
+export interface BREInput {
+  dob: string;
+  salary: number;
+  pan: string;
+  employment: string;
+}
+
+export interface BREResult {
+  eligible: boolean;
+  errors: string[];
+}
  
 // ── Loan Apply Payload ────────────────────────────────────────────────────────
 export interface LoanApplyPayload {
