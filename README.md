@@ -426,6 +426,12 @@ Screen recording (3–5 min) covering the complete flow:
 
 ---
 
+## Live Demo
+
+🌐 [LendFlow LMS](https://lendflow-frontend.onrender.com)
+
+---
+
 ## Author
 
 Built for the **LMS Full-Stack Assignment** — MERN · Next.js · TypeScript
