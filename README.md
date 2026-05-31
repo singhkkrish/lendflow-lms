@@ -419,9 +419,10 @@ Screen recording (3–5 min) covering the complete flow:
 2. Sanction executive logs in → approves application
 3. Disbursement executive logs in → releases funds
 4. Collection executive logs in → records payments
-5. Loan auto-closes when fully repaid
 
-🔗 [Watch Demo](#) ← _replace with your YouTube / Google Drive link_
+## Demo Video
+
+🎥 [Project Demonstration Video](https://drive.google.com/file/d/1sl511nBGzG6fAbEDMz6FGwPtbc_ovh_l/view?usp=sharing)
 
 ---
 
