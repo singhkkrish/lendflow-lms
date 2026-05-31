@@ -165,3 +165,18 @@ export interface LoanApplyPayload {
   amount: number;
   tenure: number;
 }
+// ── Legacy Demo Types (used by constants.ts) ────────────────────────────────
+export type Role =
+  | 'Borrower'
+  | 'Admin'
+  | 'Sales'
+  | 'Sanction'
+  | 'Disbursement'
+  | 'Collection';
+
+export interface Lead {
+  name: string;
+  email: string;
+  registered: string;
+  color: string;
+}

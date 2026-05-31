@@ -29,38 +29,7 @@ export const DEMO_CREDS = [
 ];
 
 // ── Initial loan data ─────────────────────────────────────────────────────────
-export const INIT_LOANS: Loan[] = [
-  {
-    id: 'APP_001', borrower: 'Karan Malhotra', email: 'karan@email.com',
-    amount: 450000, tenure: 200, salary: 65000, pan: 'QBFRT7890S',
-    status: 'Pending', date: '28 May 2026', payments: [],
-  },
-  {
-    id: 'APP_002', borrower: 'Vikram Mehta', email: 'vikram@email.com',
-    amount: 500000, tenure: 270, salary: 65000, pan: 'XYZAB5678C',
-    status: 'Pending', date: '26 May 2026', payments: [],
-  },
-  {
-    id: 'APP_003', borrower: 'Sanya Kapoor', email: 'sanya@email.com',
-    amount: 180000, tenure: 120, salary: 45000, pan: 'MNOPQ2345R',
-    status: 'Rejected', date: '27 May 2026', payments: [],
-    reason: 'Insufficient salary documentation',
-  },
-  {
-    id: 'APP_004', borrower: 'Rahul Sharma', email: 'borrower@lendflow.io',
-    amount: 260000, tenure: 190, salary: 80000, pan: 'ABCDE1234F',
-    status: 'Sanctioned', date: '10 May 2026', approvedOn: '11 May 2026', payments: [],
-  },
-  {
-    id: 'APP_005', borrower: 'Rahul Sharma', email: 'borrower@lendflow.io',
-    amount: 350000, tenure: 180, salary: 80000, pan: 'ABCDE1234F',
-    status: 'Active', date: '1 May 2026', disbursedOn: '3 May 2026',
-    payments: [
-      { id: 'PAY_001', utr: 'UTR282e69538002', amount: 50000, date: '31 May 2026', recordedBy: 'Collection Officer' },
-      { id: 'PAY_002', utr: 'UTR282e69420982', amount: 50000, date: '7 May 2026',  recordedBy: 'Collection Officer' },
-    ],
-  },
-];
+export const INIT_LOANS: Loan[] = [];
 
 // ── Leads ─────────────────────────────────────────────────────────────────────
 export const LEADS: Lead[] = [
