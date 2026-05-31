@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+
+# Build
+dist/
+build/
+
+# Env files
+backend/.env
+lendflow/.env.local
+.env
+.env.local
+.env.*
+
+# Uploads
+backend/uploads/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
