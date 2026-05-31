@@ -1,9 +1,3 @@
-/**
- * pages/index.tsx — Root redirect
- * Sends authenticated users to their correct home page,
- * unauthenticated users to /login.
- */
-
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import useAuthStore from '@/store/authStore';

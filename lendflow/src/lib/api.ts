@@ -1,12 +1,3 @@
-/**
- * API Client — centralized fetch wrapper
- * Drop this in: src/lib/api.ts
- *
- * Usage:
- *   import api from '@/lib/api';
- *   const data = await api.get('/loans/my');
- *   const data = await api.post('/auth/login', { email, password });
- */
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
 

@@ -1,13 +1,3 @@
-/**
- * pages/ops.jsx — Operations Dashboard
- * Wired to real backend. Role-based module access:
- *   sales        → Sales module only
- *   sanction     → Sanction module only
- *   disbursement → Disbursement module only
- *   collection   → Collection module only
- *   admin        → All modules + Overview
- */
-
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import useAuthStore from '@/store/authStore';

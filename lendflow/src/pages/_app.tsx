@@ -1,8 +1,3 @@
-/**
- * pages/_app.tsx — Next.js App wrapper
- * Drop this in: src/pages/_app.tsx
- */
-
 import type { AppProps } from 'next/app';
 import '../styles/globals.css';
 
